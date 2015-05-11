@@ -1,0 +1,22 @@
+{
+  "name": "Bootstrap Wordpress Template",
+  "version": "0.0.0",
+  "authors": [
+    "Kotaro Shimoda <ktr2.commotion@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "modernizr": "~2.8.3",
+    "respond": "~1.4.2",
+    "wordpress": "~4.2.2",
+    "font-awesome": "~4.3.0"
+  }
+}
