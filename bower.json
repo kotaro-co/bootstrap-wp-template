@@ -17,6 +17,7 @@
     "modernizr": "~2.8.3",
     "respond": "~1.4.2",
     "wordpress": "~4.2.2",
-    "font-awesome": "~4.3.0"
+    "font-awesome": "~4.3.0",
+    "masonry": "~3.3.0"
   }
 }
