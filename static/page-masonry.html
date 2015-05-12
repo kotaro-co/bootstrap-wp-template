@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bootstrap Template</title>
+<title>Masonry Page Sample</title>
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<header>
+<header class="tr-header3">
 	<div class="container">
 		<h1 class="text-center"><a href="#"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> <span class="txt-large">Site name</span></a></h1>
 		<ul class="list-inline text-center">
@@ -63,9 +63,9 @@
 </div>
 
 <main>
-<div id="container">
+<div class="tr-masonry-container">
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=1" width="238" height="167">
 		<div class="panel-body">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -88,7 +88,7 @@
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=2" width="238" height="167">
 		<div class="panel-body">
 			<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -110,7 +110,7 @@
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=3" width="238" height="167">
 		<div class="panel-body">
 			<p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -133,7 +133,7 @@
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=4" width="238" height="167">
 		<div class="panel-body">
 			<p>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -155,7 +155,7 @@
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=5" width="238" height="167">
 		<div class="panel-body">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -178,7 +178,7 @@
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=6" width="238" height="167">
 		<div class="panel-body">
 			<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -200,7 +200,7 @@
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=7" width="238" height="167">
 		<div class="panel-body">
 			<p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -223,7 +223,7 @@
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=8" width="238" height="167">
 		<div class="panel-body">
 			<p>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -261,7 +261,7 @@
 
 </main>
 
-<footer>
+<footer class="tr-footer">
 <div id="sitemap">
 	<div class="container">
 		<div class="row">
@@ -324,9 +324,9 @@
 <script src="assets/js/masonry.pkgd.min.js"></script>
 <script>
 $(function(){
-	$('#container').masonry({
+	$('.tr-masonry-container').masonry({
 		columnWidth: 240,
-		itemSelector: '.item',
+		itemSelector: '.tr-masonry-item',
 		"gutter": 20,
 		"isFitWidth": true
 	});
