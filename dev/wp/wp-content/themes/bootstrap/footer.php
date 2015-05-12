@@ -1,4 +1,4 @@
-<footer>
+<footer class="tr-footer">
 <div id="sitemap">
 	<div class="container">
 		<div class="row">

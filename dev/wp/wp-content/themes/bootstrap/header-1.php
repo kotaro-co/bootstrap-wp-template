@@ -1,4 +1,4 @@
-<header>
+<header class="tr-header1">
 <nav class="navbar-inverse">
 	<div class="container">
 		<div class="navbar-header">

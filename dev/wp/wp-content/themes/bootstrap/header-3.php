@@ -1,4 +1,4 @@
-<header>
+<header class="tr-header3">
 	<div class="container">
 		<h1 class="text-center"><a href="#"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> <span class="txt-large"><?php bloginfo('name'); ?></span></a></h1>
 		<ul class="list-inline text-center">

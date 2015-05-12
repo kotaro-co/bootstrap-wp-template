@@ -7,52 +7,40 @@ Author: CO
 Author URI: http://trunkast.com/
 */
 
-h1 a {
-  color: #333;
-}
-.navbar-inverse a.navbar-brand {
+.tr-header1 a.navbar-brand {
   color: #fff;
   font-size: 22px;
   padding-top: 11px;
 }
-.navbar-white a {
+.tr-header2 a {
   color: #333;
 }
-.navbar-white a.navbar-brand {
-  color: #333;
+.tr-header2 a.navbar-brand {
   font-size: 22px;
   padding-top: 11px;
-  padding-left: 0;
 }
-.navbar-inverse .nav-justified > li > a {
+.tr-header2 .navbar-inverse a {
   color: #fff;
 }
-.nav > li > a:focus {
-  color: #666;
-}
-.nav > li > a:hover {
+.tr-header2 .navbar-inverse a:hover {
   background-color: #333;
 }
-main {
-  margin: 20px 0;
+.tr-header3 a {
+  color: #333;
 }
-footer {
-  background-color: #ddd;
-  padding: 10px 0;
-}
-section {
-  /*background-color: #eee;*/
-  padding: 20px 0;
-}
-section:nth-child(2n) {
-  background-color: #eee;
-}
-.item {
-  width: 240px;
-}
-#container {
+.tr-masonry-container {
   margin: 0 auto;
 }
-.carousel img {
-  width: 100%;
+.tr-masonry-item {
+  width: 240px;
+}
+.tr-section-striped {
+  padding: 20px 0;
+}
+.tr-section-striped:nth-child(2n) {
+  background-color: #eee;
+}
+.tr-footer {
+  background-color: #ddd;
+  padding: 10px 0;
 }

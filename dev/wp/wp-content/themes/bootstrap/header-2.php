@@ -1,5 +1,5 @@
-<header>
-<nav class="navbar-white hidden-xs">
+<header class="tr-header2">
+<nav class="hidden-xs">
 	<div class="container">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> <span class="txt-large"><?php bloginfo('name'); ?></span></a>

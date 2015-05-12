@@ -16,7 +16,7 @@ Template Name: Page-Single
 
 <p><img src="http://placeimg.com/960/300/people" width="100%"></p>
 
-<section>
+<footer class="tr-footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-1 col-sm-0"></div>
@@ -47,7 +47,7 @@ Template Name: Page-Single
 		</div>
 	</div>
 </section>
-<section>
+<footer class="tr-footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-1 col-sm-0"></div>
@@ -70,7 +70,7 @@ Template Name: Page-Single
 		</div>
 	</div>
 </section>
-<section>
+<footer class="tr-footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-1 col-sm-0"></div>
@@ -93,7 +93,7 @@ Template Name: Page-Single
 		</div>
 	</div>
 </section>
-<section>
+<footer class="tr-footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-1 col-sm-0"></div>

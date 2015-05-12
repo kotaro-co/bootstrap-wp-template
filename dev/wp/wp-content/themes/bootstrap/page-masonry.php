@@ -31,9 +31,9 @@ Template Name: Page-Masonry
 </div>
 
 <main>
-<div id="container">
+<div class="tr-masonry-container">
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=1" width="238" height="167">
 		<div class="panel-body">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -56,7 +56,7 @@ Template Name: Page-Masonry
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=2" width="238" height="167">
 		<div class="panel-body">
 			<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -78,7 +78,7 @@ Template Name: Page-Masonry
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=3" width="238" height="167">
 		<div class="panel-body">
 			<p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -101,7 +101,7 @@ Template Name: Page-Masonry
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=4" width="238" height="167">
 		<div class="panel-body">
 			<p>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -123,7 +123,7 @@ Template Name: Page-Masonry
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=5" width="238" height="167">
 		<div class="panel-body">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -146,7 +146,7 @@ Template Name: Page-Masonry
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=6" width="238" height="167">
 		<div class="panel-body">
 			<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -168,7 +168,7 @@ Template Name: Page-Masonry
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=7" width="238" height="167">
 		<div class="panel-body">
 			<p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -191,7 +191,7 @@ Template Name: Page-Masonry
 		</ul>
 	</div>
 
-	<div class="panel panel-default item">
+	<div class="panel panel-default tr-masonry-item">
 		<img src="http://placeimg.com/200/140/any?=8" width="238" height="167">
 		<div class="panel-body">
 			<p>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -232,9 +232,9 @@ Template Name: Page-Masonry
 <script src="<?php bloginfo('template_url'); ?>/assets/js/masonry.pkgd.min.js"></script>
 <script>
 $(function(){
-	$('#container').masonry({
+	$('.tr-masonry-container').masonry({
 		columnWidth: 240,
-		itemSelector: '.item',
+		itemSelector: '.tr-masonry-item',
 		"gutter": 20,
 		"isFitWidth": true
 	});
