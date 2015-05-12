@@ -38,3 +38,4 @@ BootstrapをベースにしたシンプルなWordpressのテーマファイル�
 - [Header1+シングルカラムサンプル](http://kotaro-co.github.io/bootstrap-wp-template/static/page-single.html)
 - [Header2+マルチカラムサンプル](http://kotaro-co.github.io/bootstrap-wp-template/static/page-multi.html)
 - [Header3+カード型レイアウトサンプル](http://kotaro-co.github.io/bootstrap-wp-template/static/page-masonry.html)
+- [Bootstrap全パーツ](http://kotaro-co.github.io/bootstrap-wp-template/static/page-allparts.html)
