@@ -1,0 +1,58 @@
+/*
+Theme Name: Bootstrap Wordpress Template
+Theme URI: http://lab-wp-bs.trunkast.com
+Description: Bootstrapベースでモックアップを制作するためのテーマ
+Version: 0.0
+Author: CO
+Author URI: http://trunkast.com/
+*/
+
+h1 a {
+  color: #333;
+}
+.navbar-inverse a.navbar-brand {
+  color: #fff;
+  font-size: 22px;
+  padding-top: 11px;
+}
+.navbar-white a {
+  color: #333;
+}
+.navbar-white a.navbar-brand {
+  color: #333;
+  font-size: 22px;
+  padding-top: 11px;
+  padding-left: 0;
+}
+.navbar-inverse .nav-justified > li > a {
+  color: #fff;
+}
+.nav > li > a:focus {
+  color: #666;
+}
+.nav > li > a:hover {
+  background-color: #333;
+}
+main {
+  margin: 20px 0;
+}
+footer {
+  background-color: #ddd;
+  padding: 10px 0;
+}
+section {
+  /*background-color: #eee;*/
+  padding: 20px 0;
+}
+section:nth-child(2n) {
+  background-color: #eee;
+}
+.item {
+  width: 240px;
+}
+#container {
+  margin: 0 auto;
+}
+.carousel img {
+  width: 100%;
+}
