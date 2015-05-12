@@ -77,3 +77,4 @@ Thumbs.db
 # ignore node/bower dependency directories
 node_modules/
 bower_components/
+wordpress/
