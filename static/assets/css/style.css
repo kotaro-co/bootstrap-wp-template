@@ -38,5 +38,9 @@ section {
 section:nth-child(2n) {
   background-color: #eee;
 }
-
-
+.item {
+  width: 240px;
+}
+#container {
+  margin: 0 auto;
+}
